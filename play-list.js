@@ -126,7 +126,7 @@ $(document).ready(function(){
 			mp3:"http://www.jplayer.org/audio/mp3/Miaow-05-The-separation.mp3"
 		}
 	], {
-		swfPath: "../../jplayer",
+		swfPath: "jplayer",
 		supplied: "oga, mp3",
 		wmode: "window",
 		useStateClassSkin: true,
@@ -135,4 +135,5 @@ $(document).ready(function(){
 		keyEnabled: true
 	});
 });
+
 //]]>
