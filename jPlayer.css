@@ -1,0 +1,118 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}        
+:focus {
+	outline: none;
+}
+body {
+	line-height: 1;
+}
+body {
+	background-color: #fff;
+	color: #333;
+	font: 1em/1.6 Verdana, Arial, sans-serif;
+	margin:0;
+	padding:0;
+}
+a {
+	color:#009be3;
+}
+a:link {
+	color:#009be3;
+}
+a:visited {
+	color:#009be3;
+}
+a:hover {
+	color:#009be3;
+}
+p {
+	margin-bottom:1em;
+}
+ul {
+	margin: 0;
+	padding: 0 0 0 20px;
+}
+input.btn {
+	background-color: #009be3;
+	color: #fff;
+	font-weight:bold;
+	padding: 6px 14px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	border: 0;
+	font-size:1.2em;
+}
+input.btn:hover {
+	cursor: pointer;
+	background-color: #a0a600;
+}
+#content_main form.jplayer-newsletter input.btn {
+	font-size:1.4em;
+}
+/* Added & Modified Styles starts */
+.jp-playlist ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: disc !important;
+	text-align: left;
+	font-size: .8em;
+}
+.jp-playlist ul li { 
+	display: inline; 
+	float: left;
+	width:166px;
+}
+.jp-playlist ul li a {
+	padding: .2em 1em;
+	color: #fff;
+}
+.jp-playlist ul li a:hover {
+	color: #fff;
+}
+.jp-audio {
+	width: 500px; 
+	height:420px;
+	padding: 20px;
+}
+div.jp-type-playlist div.jp-playlist li.jp-playlist-current {
+	background-color: none;
+	margin: 0 -20px;
+	padding: 5px 20px;
+	border-top: 0px solid #554461;
+	border-bottom: 0px solid #26102e;
+}
+.jp-playlist li {
+	position: relative;
+	padding: 5px 0;
+	border-top: 0px solid #554461;
+	border-bottom: 0px solid #180a1f;
+	overflow: hidden;
+}
+div.jp-type-playlist div.jp-playlist li:first-child {
+	border-top: none;
+	padding-top: 5px;
+}
+.jp-interface {
+	position: relative;
+	width: 100%;
+	background-color: #535353;
+	margin-bottom: 10px;
+}
+/* Added & Modified Styles ends */
